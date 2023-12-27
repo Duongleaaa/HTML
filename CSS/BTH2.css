@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#para{
+    color: red;
+}
+
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

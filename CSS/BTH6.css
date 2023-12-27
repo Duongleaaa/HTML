@@ -1,0 +1,25 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+table {
+    border: 1px solid;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(25, 137, 211);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
