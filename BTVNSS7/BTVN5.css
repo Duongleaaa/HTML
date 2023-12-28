@@ -1,0 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+h3{
+    position: relative;
+    left: 40px;
+}
+
+#Address{
+    position: relative;
+    left: 80px;
+}
+
+.line{
+    color: gray;
+}

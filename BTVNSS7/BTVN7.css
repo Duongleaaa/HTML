@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#img1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+#box1{
+    background-color: beige;
+    margin: 20px;
+    height: 500px;
+    width: auto;
+}
+
+.para1{
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+#para2{
+    color: gray;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+
+#img2{
+    position: relative;
+    bottom: 150px;
+    left: 900px;
+}
+td{
+    padding: 20px;
+}
+i{
+    position: relative;
+    bottom: 300px;
+    left: 30px;
+}
