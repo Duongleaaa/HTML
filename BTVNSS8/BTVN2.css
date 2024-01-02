@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    background-color:rgb(203, 203, 229);
+    width: 300px;
+    margin: 40px;
+}
+ul {
+    padding: 30px;
+    /* Thay đổi dấu chấm thành dấu tròn rỗng */
+    list-style-type: circle;
+}
+
+a{
+    /* xóa dòng kẻ dưới chân */
+    text-decoration: none;
+    color: black;
+}
+/* :hover sẽ làm chuyển màu chữ khi di chuột vào */
+ li:hover{
+    color: red;
+ }
+
+ a:hover{
+    color:red;
+ }
