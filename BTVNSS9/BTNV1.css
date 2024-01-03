@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+    background-image:url("https://baomoi-photo-fbcrawler.bmcdn.me/w720x480/2022_08_14_83_43444659/65ab2b62fb20127e4b31.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.parent .para{
+    position: relative;
+    top: 290px;
+    left: 20px;
+}
+
+.parent .para1{
+    background-color: black;
+    height: 55px;
+    position: relative;
+    top: 130px;
+    opacity: 80%;
+}
+
+.parent .para1 .circle ion-icon{
+    color: aliceblue;
+    font-size: 200%;
+    /* lần lượt căn giữa theo chiều ngang và chiều dọc dựa vào grid. */
+    align-self: center; 
+    justify-self: center;
+}
+
+.parent .para1 .circle {
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    display: grid;
+}
+
+.parent .para1 .para2{
+    color: aliceblue;
+    position: relative;
+    bottom:20px;
+    left: 60px;
+}
