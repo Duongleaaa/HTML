@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+.category-container {
+    background-color: aliceblue;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: 20px;
+}
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.football {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.football-item {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bascketball {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+.bascketball-item {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-sport {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.car-sport-item {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-tennis {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+.table-tennis-item {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    height: 24px;
+}

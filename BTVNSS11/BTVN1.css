@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+/* layout 2 */
+.choice-list {
+    display: flex;
+    gap: 20px;
+}
+
+.choice-item {
+    list-style: none;
+    color: gray;
+}
+
+#color-item {
+    color: black;
+}
+/* Layout 3 */
+.search-button {
+    color:antiquewhite;
+    background-color: rgb(103, 102, 102);
+    border:none;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
