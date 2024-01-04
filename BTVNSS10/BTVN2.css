@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.shop-head {
+    background-color: cornflowerblue;
+    height: 56px;
+    margin: 10px;
+    font-size: 13px;
+    width: 800px;
+}
+
+.shop-parent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-item-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item-3{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.input {
+    outline: none;
+    height: 36px;
+    border: 1px solid #dadada;
+    padding: 0 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0;
+    color: lightblue;
+    padding: 10px;
+}
+
+.icon-ect {
+    font-size: 30px;
+    color: lightblue; 
+}

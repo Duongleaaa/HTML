@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.dad-menu {
+    width: 250px;
+    height: 100vh;
+    background-color: darkblue;
+    color: aliceblue;
+
+    padding: 8px 16px 8px 16px;
+}
+
+.child-menu {
+    padding: 8px 8px 8px 8px;
+    display: flex;
+    gap: 4px;
+}
+
+ion-icon {
+    color: aliceblue;
+}
+
+.child-menu:hover {
+    background-color: rgba(60, 60, 145, 0.568);
+}
+
+
