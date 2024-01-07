@@ -1,0 +1,55 @@
+.header-nav {
+    background-color: #FFFFFF  ;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:2px solid #F3F3F3;
+
+}
+.header-nav .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 130px;
+    height: 42px;
+    gap: 12px;
+}
+
+.header-nav .nav-logo .material-symbols-outlined {
+    color: #AD7E5C;
+    width: 42px !important;
+    height: 42px !important;
+    font-size: 300%;
+}
+
+.header-nav .nav-logo span:last-child {
+    color: #151411;
+    height: 19px;
+    width: 76px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-nav .nav-list {
+    display: flex;
+    gap: 60px;
+    width: 461px;
+    height: 32px;
+    align-items: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.header-nav .nap-list a {
+    font-size:18px ;
+    font-weight: 500;
+}
+
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    color: #151411;
+}

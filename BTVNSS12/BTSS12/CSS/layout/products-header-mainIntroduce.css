@@ -1,0 +1,20 @@
+.main-introduce {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+}
+.main-introduce p{
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #AFADB5;
+    padding-top: 20px;
+
+}
+
+.main-introduce h1 {
+    font-weight: 700;
+    font-size: 64px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}

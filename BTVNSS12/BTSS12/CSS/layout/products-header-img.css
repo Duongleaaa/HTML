@@ -1,0 +1,76 @@
+.main-img {
+    height: 500px;
+    background-image: url("https://www.suomela.fi/wp-content/uploads/2017/05/Simo_web-1440x500.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+    margin-top: 64px;
+}
+
+.img-part-1 {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-part1-nextbutton {
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: black;
+    background: rgba(0, 0, 0, 60%);
+}
+
+.img-part1-items {
+    color: #FFFFFF;
+    margin-right: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.img-part-1 .img-part1-items h2 {
+    font-weight: 700;
+    font-size: 44px;
+    height: 57px;
+}
+
+.img-part-1 .img-part1-items p {
+    height: 62px;
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.img-part-1 .img-part1-items .button-discount {
+    height: 41px;
+    width: 93px;
+    color: #FFFFFF;
+    background-color: #518581;
+    border-radius: 16px;
+    padding: 8px 16px 8px 16px;
+
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.main-img .img-part-2 {
+    height: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-part-2 .img-part2-item {
+    display: flex;
+    gap: 10px;
+}
+.img-active {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}

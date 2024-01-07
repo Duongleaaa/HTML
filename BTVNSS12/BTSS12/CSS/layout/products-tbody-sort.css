@@ -1,0 +1,57 @@
+.tbody-sort {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+}
+.tbody-sort .total-product {
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tbody-sort .total-product h2 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.tbody-sort .total-product button {
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    padding: 10px 16px 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    color: #518581;
+    font-size:16px ;
+    font-weight:700 ;
+}
+
+.tbody-sort .sort-by {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #F9F9F9;
+    border: 1.5px solid #f9f9f9d8;
+    padding: 13px 20px 13px 20px;
+}
+
+.tbody-sort .sort-by .material-symbols-outlined {
+    width: 24px;
+    height: 24px;
+    font-size: 150%;
+    color: #151411;
+}
+
+.tbody-sort .sort-by p {
+    font-weight: 500;
+    color: #151411;
+
+}

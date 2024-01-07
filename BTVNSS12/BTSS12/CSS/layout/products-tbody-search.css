@@ -1,0 +1,74 @@
+.product-tbody {
+    /* height: 2000px; */
+    padding: 0 50px 0 84px;
+    margin-top: 36px;
+}
+.tbody-search {
+    height: 84px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+
+}
+.search {
+    width: 1200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.tbody-search .search input {
+    border: transparent;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #AFADB5;
+    width: 80%;
+
+}
+
+.tbody-search .search button {
+    width: 138px;
+    height: 54px;
+    background-color: #518581;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.tbody-search .search .material-symbols-outlined {
+    height: 32px;
+    width: 32px;
+    font-size: 200%;
+    color: #AFADB5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filter {
+    height: 84px;
+    width: 190px;
+    background-color:#FFFFFF ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.tbody-search .filter .material-symbols-outlined {
+    height: 30px;
+    width: 30px;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbody-search .filter span:last-child {
+    font-weight: 500;
+    font-size: 18px;
+}

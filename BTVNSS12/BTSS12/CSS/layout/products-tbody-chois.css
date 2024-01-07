@@ -1,0 +1,66 @@
+.tbody-chois {
+    margin-top: 78px;
+    margin-bottom: 84px;
+}
+.tbody-chois .sub-chois {
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.tbody-chois .sub-chois button {
+    width: 38px;
+    height: 100%;
+    border: 1.5px solid #F9F9F9;
+    background-color: white;
+}
+
+.tbody-chois .sub-chois .right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-chois .right-arrow span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #151411;
+}
+
+
+
+.sub-chois .chois-list button:first-child {
+    background-color: #518581;
+    color: #FFFFFF;
+}
+
+.tbody-chois .sub-chois .left-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-chois .left-arrow span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    color: #AFADB5;
+}
+
+
+.chois-list {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-chois .chois-list button {
+    font-size: 18px;
+    font-weight: 500;
+}
+
