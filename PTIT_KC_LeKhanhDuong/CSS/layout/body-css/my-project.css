@@ -1,0 +1,113 @@
+.my-projects {
+    padding: 0 154px 0 154px ;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
+}
+
+.my-projects .project-introduce {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-projects .project-introduce .pj-button, .name-project, .pj-para {
+    display: flex;
+    justify-content: center;
+}
+
+.project-introduce .pj-button button{
+    padding: 4px 8px;
+    color: rgb(21, 201, 141);
+    border-radius: 4px;
+}
+
+.my-projects .project-introduce .name-project {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+.my-projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.my-projects-nav {
+    height: 54px;
+}
+
+.my-projects-nav .my-pj-nav-small {
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.my-projects-nav .my-pj-nav-small .my-pj-nav-list {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.my-pj-nav-small .my-pj-nav-list .my-pj-nav-item{
+    padding: 0 20px 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.my-pj-nav-small .my-pj-nav-list .my-pj-nav-item:first-child {
+    border-bottom: 2px solid aquamarine;
+}
+
+
+.projects-list {
+    height: 162px;
+    display: flex;
+    gap: 54px;
+}
+
+
+.project-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    gap: 12px;
+
+}
+
+.logo-pj {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-pj-icon {
+    height: 50px;
+    width: 50px;
+}
+.logo-pj-icon img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo-pj-info {
+}
+
+.pj-link {
+    display: flex;
+    align-items: center;
+}
+
+.pj-tag {
+    width: 100%;
+}
+
+.pj-tag .pj-tag-list {
+    display: flex;
+    gap: 14px;
+}
+

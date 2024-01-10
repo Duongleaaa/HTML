@@ -1,0 +1,52 @@
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .content-img {
+    height: 556px;
+    width: 600px;
+}
+
+.header-content .content-img img {
+    height: 100%;
+}
+.header-content .self-introduce{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.seftowm-header .header-content .self-introduce p,h1,button {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content .self-introduce p {
+    color: rgb(138, 138, 138);
+    font-size: 20px;
+    padding-left: 130px;
+}
+
+.header-content .self-introduce h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+.self-introduce .dowmload-cv{
+    display: flex;
+    justify-content: center;
+    height: 34px;
+}
+
+.self-introduce .dowmload-cv button {
+    width: 164px;
+    border-radius: 4px;
+    background-color: rgb(0, 188, 188);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
