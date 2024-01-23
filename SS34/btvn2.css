@@ -1,0 +1,14 @@
+#parent {
+    width: 100%;
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#say-hi{
+    padding: 14px;
+    border-radius: 6px;
+    background-color: aquamarine;
+    border: none;
+}
+
