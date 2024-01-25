@@ -1,0 +1,28 @@
+.all {
+    height: 44px;
+    width: 44px; 
+    background-color: purple;
+    margin: 100px 0 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 0.3s;
+  }
+  
+  .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    border: transparent;
+    outline: transparent;
+  }
+  
+  .expanded {
+    width: 300px;
+    border-radius: 5px; 
+  }
