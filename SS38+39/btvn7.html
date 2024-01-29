@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./btvn7.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Password Generator</h1>
+            <div class="display">
+                <input type="text" class="display-input">
+                <button class = 'copy-button'><ion-icon name="clipboard-outline"></ion-icon></button>
+            </div>
+            <div class="list">
+                <div class="item-list">
+                    <label for="numberbox">Password Length</label>
+                    <input type="number" id="numberbox" class="password-option">
+                </div>
+                <div class="item-list">
+                    <label for="uppercasebox">Include uppercase letters</label>
+                    <input type="checkbox" id="uppercasebox" class="password-option">
+                </div>
+                <div class="item-list">
+                    <label for="lowercasebox">Include lowercase letters</label>
+                    <input type="checkbox" id="lowercasebox" class="password-option">
+                </div>
+                <div class="item-list">
+                    <label for="numbersbox">Include numbers</label>
+                    <input type="checkbox" id="numbersbox" class="password-option">
+                </div>
+                <div class="item-list">
+                    <label for="symbolsbox">Include Symbols</label>
+                    <input type="checkbox" id="symbolsbox" class="password-option">
+                </div>
+            </div> 
+            <button class="creat-button">Generate Password</button>
+        </div>
+    </div>
+</body>
+<script src="./btvn7.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

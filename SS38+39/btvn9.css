@@ -1,0 +1,12 @@
+.list-country{
+    width: 100%;
+}
+.search-input{
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+}
+.input{
+    width: 100%;
+    border: transparent;
+}

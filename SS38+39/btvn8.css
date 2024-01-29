@@ -1,0 +1,22 @@
+.app {
+    width: 500px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app h1{
+    height: 54px;
+    background-color: green;
+    color: aliceblue;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item {
+  width: 90%;
+}
+.input-weight{
+    width: 100%;
+    height: 20px;
+}

@@ -1,0 +1,58 @@
+.progress-bar {
+    position: relative;
+    width: 50%;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .progress {
+    height: 50%;
+    background-color: rgb(0, 200, 0);
+    border-radius: 10px;
+  }
+  
+  .contain {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+  }
+  .marker {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(0, 200, 0);
+  }
+
+.choice{
+    padding: 80px 0 0 300px;
+}
+
+.button{
+    padding: 8px 28px;
+    border-radius: 6px;
+    border: transparent;
+    background-color: rgb(0, 201, 0);
+    color: aliceblue;
+}
+
+.all{
+    margin: 100px 0 0 100px;
+}
+
+.marker.active {
+  background-color: rgb(0, 201, 0);
+}
+
+.button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
