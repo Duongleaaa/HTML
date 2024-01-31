@@ -1,0 +1,25 @@
+.email-address {
+    padding: 110px 154px;
+    background-color: aliceblue;
+    margin-bottom: 64px;
+}
+.ea-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.ea-content div .email-input{
+    height: 40px;
+    width: 70%;
+    border: transparent;
+    border-radius: 4px;
+}
+
+.ea-content div .email-button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color:black ;
+    color: aliceblue;
+    font-weight: 700;
+}

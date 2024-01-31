@@ -1,0 +1,131 @@
+.my-projects {
+    padding: 0 154px 0 154px ;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    margin-bottom: 84px;
+}
+
+.my-projects .project-introduce {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.my-projects .project-introduce .pj-button, .name-project, .pj-para {
+    display: flex;
+    justify-content: center;
+}
+
+.project-introduce .pj-button button{
+    padding: 4px 8px;
+    color: rgb(21, 201, 141);
+    border-radius: 4px;
+}
+
+.my-projects .project-introduce .name-project {
+    font-size: 34px;
+    font-weight: 600;
+}
+/* ================ */
+
+.my-projects-content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.my-projects-nav {
+    height: 54px;
+    border-bottom: 2px solid rgba(243, 243, 243, 0.821);
+    border-left: 2px solid rgba(243, 243, 243, 0.821);
+}
+
+.my-projects-nav .my-pj-nav-small {
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+.my-projects-nav .my-pj-nav-small .my-pj-nav-list {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+}
+
+.my-pj-nav-small .my-pj-nav-list .my-pj-nav-item{
+    padding: 0 20px 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.my-pj-nav-small .my-pj-nav-list .my-pj-nav-item:first-child {
+    border-bottom: 2px solid aquamarine;
+}
+
+
+
+
+ /* ----------------------------- */
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+
+.project-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 12px;
+    box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.199);
+
+}
+
+
+.logo-pj {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo-pj-icon {
+    height: 50px;
+    width: 50px;
+}
+.logo-pj-icon img {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.pj-link {
+    display: flex;
+    align-items: center;
+}
+
+.pj-link a {
+    color: rgb(128, 128, 128);
+}
+
+.pj-link span {
+    color: rgba(0, 194, 194, 0.803);
+}
+
+.pj-tag .pj-tag-list {
+    display: flex;
+    gap: 14px;
+}
+
+.pj-tag-list .pj-tag-item {
+    color: rgba(0, 0, 255, 0.744);
+    padding: 2px 8px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 255, 0.033);
+}

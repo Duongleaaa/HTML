@@ -1,0 +1,93 @@
+.get-in-touch-background {
+    background-color:aliceblue;
+    padding:110px 154px 110px 154px ;
+}
+.get-in-touch {
+    background-color: white;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.get-in-touch .send-mes{
+    width: 150px;
+    padding: 10px 0 10px 0;
+    border-radius: 4px;
+    background-color:rgb(0, 188, 188) ;
+    color: aliceblue;
+    font-weight: 700;
+}
+.get-intouch-content{
+    display: flex;
+}
+.git-content-left {
+    width: 70%;
+    display: grid;
+    grid-template-rows: auto 1fr ;
+    row-gap: 34px;
+}
+.introduce-git {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.introduce-git h1{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+
+.git-content-right{
+    width: auto;
+    
+}
+
+.input-infomation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    gap: 14px;
+    
+}
+
+.input-infomation #git-input1{
+    grid-column: 1/3;
+}
+.input-infomation .get-in-touch-input .git-input1{
+    height: 100px;
+    width: 100%;
+}
+.get-in-touch-input .input{
+    margin-top: 10px;
+    height: 34px;
+    width: 100%;
+}
+
+.img-git {
+    width: 200px;
+    height: 200px;
+    background-image: url('/img/contact.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.git-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.git-content-right .git-contact .git-contact-item{
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+}
+
+.git-contact .git-contact-item ion-icon{
+    font-size: 150%;
+    padding: 6px 14px;
+}
+

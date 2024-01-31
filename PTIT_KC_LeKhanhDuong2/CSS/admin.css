@@ -1,0 +1,50 @@
+.title{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+.title .flex-nowrap {
+    height: 30px;
+}
+
+.title div .btn-primary{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.edit-button {
+    background-color: green;
+    color:aliceblue ;
+    border: transparent;
+    border-radius: 6px;
+    margin-right: 10px;
+  
+  }
+  
+  
+  button.delete-button {
+    background-color: red;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 6px;
+   
+  }
+
+  .tag-button {
+    background-color: aliceblue;
+    border: none;
+    margin: 8px;
+    border-radius: 6px;
+   
+  }
+
+
+
+
+
+
+

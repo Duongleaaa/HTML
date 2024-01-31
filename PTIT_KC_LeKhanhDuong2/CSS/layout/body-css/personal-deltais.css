@@ -1,0 +1,97 @@
+.personal-deltails {
+    margin-top: 74px;
+    margin-bottom: 74px;
+    padding: 0 154px 0 154px ;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 54px;
+}
+
+.personal-deltails .deltails-top .info-deltails {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 200px;
+}
+.personal-deltails .info-deltails .info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-deltails .info-left span {
+    width: max-content;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: inset 0 -10px gold;
+}
+
+.info-deltails .info-left .info-icon {
+    display: flex;
+    gap: 18px;
+}
+
+.info-left .info-icon .icon-item {
+    border-radius: 50%;
+    padding: 8px 12px;
+    background: none;
+    border: 2px solid gray;
+}
+
+
+.info-icon  .icon-item ion-icon {
+    font-size: 150%;
+    color: gray;
+}
+
+.table-info tr td {
+    padding: 10px;
+    font-weight: 600;
+}
+
+.table-info tr td:last-child {
+    font-weight: 500 ;
+    color:rgb(71, 71, 254)  ;
+}
+
+/* logo-delta */
+.personal-deltails .logo-deltas {
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.logo-deltas .logo-item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(192, 192, 192, 0.651);
+}
+.logo-deltas #logo-item-3{
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+.logo-deltas #logo-item-2{
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+.logo-deltas #logo-item-1{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.deltas-icon {
+    height: 70px;
+    width: 70px;
+}
+
+
+.deltas-icon img {
+    width: 100%;
+    height: 100%;
+}
+ .logo-item .deltas-icon-name p {
+    font-size: 14px;
+}
+
