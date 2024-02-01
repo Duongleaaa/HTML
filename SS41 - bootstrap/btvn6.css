@@ -1,0 +1,11 @@
+
+.appear{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+
+.hide{
+    opacity: 0;
+}
